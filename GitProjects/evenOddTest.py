@@ -1,0 +1,14 @@
+# Define a function that can accept an integer number as input and print the "It is an even number"
+# if the number is even, otherwise print "It is an odd number".
+def num_tester(n) -> int:
+    if n % 2 == 0:
+        print("It is an even number")
+    else:
+        print("It is an odd number")
+
+num_tester(7)
+num_tester(8)
+num_tester(9)
+num_tester(10)
+
+
